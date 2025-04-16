@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-import Lottie from "lottie-react";
+import Lottie, { LottieOptions } from "lottie-react";
 
 interface Props {
-  animationData: any;
+  animationData: LottieOptions["animationData"];
   className?: string;
   loop?: boolean;
   autoplay?: boolean;

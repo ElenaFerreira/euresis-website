@@ -4,7 +4,6 @@ import React from "react";
 import { Button } from "./shared/Button";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import Lottie from "lottie-react";
 import dynamic from "next/dynamic";
 import scrollAnimation from "../public/lottie/scroll.json";
 
