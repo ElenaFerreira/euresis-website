@@ -9,8 +9,12 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
+  --color-tertiary: var(--tertiary);
+
+  --color-hover-button: var(--hover-button);
 
   --color-hero: var(--hero);
 }
@@ -19,8 +23,11 @@
   --background: #0a0a0a;
   --foreground: #ededed;
 
-  --primary: #176fa5;
+  --primary: #1c75bc;
   --secondary: #0e3a5d;
+  --tertiary: #f6ae2d;
+
+  --hover-button: #db9209;
 }
 
 @font-face {

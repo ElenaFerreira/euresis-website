@@ -28,8 +28,8 @@ export function MobileMenu({ isOpen, onClose, links }: MobileMenuProps) {
                 smooth={true}
                 offset={-80}
                 duration={500}
-                className="block text-lg text-gray-600 hover:text-blue-600 cursor-pointer transition-colors"
-                activeClass="text-blue-600 font-medium"
+                className="block text-lg text-gray-600 hover:text-primary cursor-pointer transition-colors"
+                activeClass="text-primary font-medium"
                 onClick={onClose}
               >
                 {link.title}
