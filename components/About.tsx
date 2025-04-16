@@ -6,22 +6,22 @@ export function PresentationSection() {
     {
       title: "Proximité",
       description: "Un interlocuteur dédié pour comprendre vos besoins spécifiques",
-      icon: <UserIcon className="w-6 h-6 text-blue-600" />,
+      icon: <UserIcon className="w-6 h-6 text-tertiary" />,
     },
     {
       title: "Écoute",
       description: "Des solutions adaptées à vos contraintes et objectifs",
-      icon: <HeartHandshakeIcon className="w-6 h-6 text-blue-600" />,
+      icon: <HeartHandshakeIcon className="w-6 h-6 text-tertiary" />,
     },
     {
       title: "Réactivité",
       description: "Une équipe disponible pour répondre rapidement à vos demandes",
-      icon: <ClockIcon className="w-6 h-6 text-blue-600" />,
+      icon: <ClockIcon className="w-6 h-6 text-tertiary" />,
     },
     {
       title: "Accompagnement",
       description: "Un partenariat sur le long terme pour votre transformation numérique",
-      icon: <TrendingUpIcon className="w-6 h-6 text-blue-600" />,
+      icon: <TrendingUpIcon className="w-6 h-6 text-tertiary" />,
     },
   ];
   return (
@@ -39,7 +39,7 @@ export function PresentationSection() {
           {engagements.map((item, index) => (
             <div key={index} className="bg-gray-50 p-6 rounded-lg border border-gray-100 hover:shadow-md transition-shadow">
               <div className="flex justify-center mb-4">{item.icon}</div>
-              <h3 className="text-xl font-semibold mb-2 text-center">{item.title}</h3>
+              <h3 className="text-xl text-secondary font-semibold mb-2 text-center">{item.title}</h3>
               <p className="text-gray-600 text-center">{item.description}</p>
             </div>
           ))}

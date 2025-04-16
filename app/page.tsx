@@ -1,7 +1,7 @@
 import React from "react";
 import { NavBar } from "../components/navigation/NavBar";
 import { HeroSection } from "../components/Hero";
-import { PresentationSection } from "../components/Presentation";
+import { PresentationSection } from "../components/About";
 import { ServicesSection } from "../components/Services";
 import { DaasSection } from "../components/Daas";
 import { TestimonialsSection } from "../components/Testimonials";
