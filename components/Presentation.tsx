@@ -27,10 +27,10 @@ export function PresentationSection() {
   return (
     <section className="w-full bg-white py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <SectionTitle className="text-center">À propos d'Euresis</SectionTitle>
+        <SectionTitle className="text-center">À propos d&rsquo;Euresis</SectionTitle>
         <div className="max-w-3xl mx-auto text-center mb-12">
           <p className="text-lg text-gray-700 mb-6">
-            Euresis est une entreprise informatique B2B à taille humaine, spécialisée dans l'accompagnement des PME dans leur transformation
+            Euresis est une entreprise informatique B2B à taille humaine, spécialisée dans l&rsquo;accompagnement des PME dans leur transformation
             numérique. Notre approche combine expertise technique, réactivité et service personnalisé pour répondre précisément aux besoins de nos
             clients.
           </p>

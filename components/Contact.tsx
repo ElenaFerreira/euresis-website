@@ -49,7 +49,7 @@ export function ContactSection() {
                 <option value="">Sélectionner un service</option>
                 <option value="daas">Desktop as a Service (DaaS)</option>
                 <option value="development">Développement logiciel</option>
-                <option value="infrastructure">Gestion d'infrastructure IT</option>
+                <option value="infrastructure">Gestion d&rsquo;infrastructure IT</option>
                 <option value="security">Cybersécurité</option>
                 <option value="other">Autre</option>
               </select>
