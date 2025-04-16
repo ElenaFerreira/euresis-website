@@ -1,5 +1,4 @@
 import React from "react";
-import { SectionTitle } from "./shared/SectionTitle";
 import { QuoteIcon } from "lucide-react";
 export function TestimonialsSection() {
   const testimonials = [
@@ -23,7 +22,7 @@ export function TestimonialsSection() {
   return (
     <section className="w-full bg-gray py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <SectionTitle className="text-center text-secondary">Témoignages Clients</SectionTitle>
+        <h2 className="text-center text-secondary">Témoignages Clients</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md">

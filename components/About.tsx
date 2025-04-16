@@ -1,5 +1,4 @@
 import React from "react";
-import { SectionTitle } from "./shared/SectionTitle";
 import { UserIcon, HeartHandshakeIcon, ClockIcon, TrendingUpIcon } from "lucide-react";
 export function PresentationSection() {
   const engagements = [

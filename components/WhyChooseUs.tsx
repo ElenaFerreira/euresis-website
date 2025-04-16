@@ -1,5 +1,4 @@
 import React from "react";
-import { SectionTitle } from "./shared/SectionTitle";
 import { UsersIcon, PuzzleIcon, ZapIcon, LockIcon, PiggyBankIcon } from "lucide-react";
 export function WhyChooseUsSection() {
   const reasons = [
@@ -32,7 +31,7 @@ export function WhyChooseUsSection() {
   return (
     <section className="w-full bg-white py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <SectionTitle className="text-center text-secondary">Pourquoi Nous Choisir</SectionTitle>
+        <h2 className="text-center text-secondary">Pourquoi Nous Choisir</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {reasons.map((reason, index) => (
             <div key={index} className="bg-gray-50 p-6 rounded-lg border border-gray-100 hover:shadow-md transition-all">

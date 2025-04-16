@@ -1,5 +1,4 @@
 import React from "react";
-import { SectionTitle } from "./shared/SectionTitle";
 import { Button } from "./shared/Button";
 import { CheckCircleIcon } from "lucide-react";
 export function DaasSection() {

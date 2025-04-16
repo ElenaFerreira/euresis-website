@@ -1,5 +1,4 @@
 import React from "react";
-import { SectionTitle } from "./shared/SectionTitle";
 import { CodeIcon, ServerIcon, ShieldIcon, CloudIcon } from "lucide-react";
 
 export function ServicesSection() {

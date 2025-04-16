@@ -1,12 +1,11 @@
 import React from "react";
-import { SectionTitle } from "./shared/SectionTitle";
 import { Button } from "./shared/Button";
 import { MailIcon } from "lucide-react";
 export function ContactSection() {
   return (
     <section className="w-full bg-gray-50 py-16 md:py-24" id="contact">
       <div className="container mx-auto px-4">
-        <SectionTitle className="text-center text-secondary">Contactez-nous</SectionTitle>
+        <h2 className="text-center text-secondary">Contactez-nous</h2>
         <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-8">
           <div className="flex items-center justify-center mb-6 text-primary">
             <MailIcon className="size-6 mr-2" />
