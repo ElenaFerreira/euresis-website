@@ -1,8 +1,9 @@
 import React from "react";
+
 export function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="w-full bg-gray-800 text-white py-8">
+    <footer className="w-full bg-secondary text-white py-8">
       <div className="container mx-auto px-4 text-center">
         <div className="mb-4">
           <h3 className="text-xl font-bold">Euresis</h3>

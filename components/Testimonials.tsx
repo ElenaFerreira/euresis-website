@@ -21,18 +21,18 @@ export function TestimonialsSection() {
     },
   ];
   return (
-    <section className="w-full bg-gray-50 py-16 md:py-24">
+    <section className="w-full bg-gray py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <SectionTitle className="text-center">Témoignages Clients</SectionTitle>
+        <SectionTitle className="text-center text-secondary">Témoignages Clients</SectionTitle>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-              <QuoteIcon className="w-10 h-10 text-blue-200 mb-4" />
+              <QuoteIcon className="size-10 text-tertiary/40 mb-4" />
               <p className="text-gray-700 italic mb-6">{testimonial.content}</p>
               <div className="flex items-center">
                 <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full object-cover mr-4" />
                 <div>
-                  <h4 className="font-semibold">{testimonial.name}</h4>
+                  <h4 className="font-semibold text-secondary">{testimonial.name}</h4>
                   <p className="text-sm text-gray-600">{testimonial.position}</p>
                 </div>
               </div>
