@@ -19,7 +19,7 @@ export function MobileMenu({ isOpen, onClose, links }: MobileMenuProps) {
       {/* Menu panel */}
       <div className="fixed inset-y-0 right-0 w-full max-w-sm bg-white shadow-xl">
         <div className="flex flex-col h-full overflow-y-auto">
-          <div className="flex-1 px-4 py-6 space-y-6">
+          <div className="flex-1 px-4 py-6 space-y-6 pt-20">
             {links.map((link) => (
               <Link
                 key={link.to}

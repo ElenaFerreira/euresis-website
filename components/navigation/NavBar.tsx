@@ -53,13 +53,16 @@ export const NavBar = () => {
           isScrolled ? "bg-foreground/70 backdrop-blur-sm shadow-sm" : "bg-foreground"
         }`}
       >
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-16 md:h-20">
-            <Link to="hero" spy={true} smooth={true} offset={-80} duration={500} className="cursor-pointer">
-              <Image src="/images/logo-euresis.png" alt="Euresis Logo" width={140} height={40} className="w-15 mr-2" priority />
-            </Link>
+        <div className="w-full">
+          <div className="w-full flex items-center justify-between px-8 gap-3 h-16 md:h-20">
+            <div className="w-[183px]">
+              <Link to="hero" spy={true} smooth={true} offset={-80} duration={500} className="cursor-pointer">
+                <Image src="/images/logo-euresis.png" alt="Euresis Logo" width={140} height={40} className="w-15 mr-2" priority />
+              </Link>
+            </div>
+
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center gap-8">
               {navLinks.map((link) => (
                 <Link
                   key={link.to}
@@ -68,16 +71,19 @@ export const NavBar = () => {
                   smooth={true}
                   offset={-80}
                   duration={500}
-                  className="text-gray-600 hover:text-primary cursor-pointer transition-colors"
+                  className="text-gray-600 hover:text-primary cursor-pointer transition-colors text-nowrap"
                   activeClass="text-primary font-medium"
                 >
                   {link.title}
                 </Link>
               ))}
+            </div>
+            <div className="hidden md:flex items-center space-x-8 text-nowrap">
               <Link to="contact" spy={true} smooth={true} offset={-80} duration={500}>
                 <Button primary>Obtenir un devis</Button>
               </Link>
             </div>
+
             {/* Mobile Menu Button */}
             <button
               className="md:hidden text-gray-600 hover:text-primary transition-colors"
